@@ -1,0 +1,183 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&display=swap');
+
+/* header */
+header {
+    background-color: rgb(255, 16, 80);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* text styles */
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5em;
+  color: white
+}
+
+h2 {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  color: white
+}
+
+h3 {
+    font-family: "Cabin Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+
+}
+
+h4 {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+
+}
+
+p {
+    font-family: "Cabin Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+strong {
+    font-weight: 500;
+}
+
+/* footer */
+footer {
+    padding:35px;
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+    color: white;
+}
+
+/* navigation bar */
+.navbar {
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+/* link */
+.button {
+    font-family: "Cabin Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  color: rgb(255, 16, 80);
+  margin-top: 1.5%;
+}
+
+.nav-link {
+    color:rgb(255, 16, 80)
+}
+
+/* carousel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    font-family: "Cabin Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+/* section */
+.text-section {
+    background-color: white;
+    padding: 80px;
+}
+
+/* color section */
+.filler-section {
+    background-color: rgb(255, 16, 80);
+    padding: 30px;
+}
+
+/* card images sizes */
+.cardimg {
+    height: 200px;
+}
+
+/* cards animations */
+#card1 {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration: 4s;
+}
+
+#card2 {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    animation-duration: 4s;
+}
+
+#card3 {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    animation-duration: 4s;
+}
+
+#card4 {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    animation-duration: 4s;
+}
+
+/* fadein animation */
+@keyframes fadeIn {
+
+    from {
+        opacity:0;
+
+    }
+
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+/* contact.html and modal */
+
+h5 {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgb(255, 16, 80); 
+}
+
+.contacts {
+    padding-top: 30px;
+    font-size: 1.4em;
+}
